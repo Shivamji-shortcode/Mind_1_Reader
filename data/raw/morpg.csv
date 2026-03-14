@@ -1,0 +1,31 @@
+Order_Date,Year,Month,Country,City,Latitude,Longitude,Category,Sub_Category,Funnel_Stage,Sales,Profit,Cost,Quantity,Target_Sales,Discount_Amount,Customer_Rating
+05-01-2024,2024,Jan,USA,New York,40.7128,-74.006,Electronics,Laptops,Closed Won,5000,1200,3800,5,4500,200,4.5
+12-01-2024,2024,Jan,USA,San Francisco,37.7749,-122.4194,Electronics,Phones,Negotiation,3000,800,2200,8,3200,100,4.2
+20-01-2024,2024,Jan,UK,London,51.5074,-0.1278,Furniture,Chairs,Qualified Lead,1500,300,1200,12,1800,50,3.8
+05-02-2024,2024,Feb,India,Mumbai,19.076,72.8777,Electronics,Headphones,Closed Won,800,200,600,20,1000,20,4.8
+15-02-2024,2024,Feb,India,Delhi,28.6139,77.209,Clothing,T-Shirts,Prospect,1200,400,800,50,1500,60,4
+28-02-2024,2024,Feb,Germany,Berlin,52.52,13.405,Furniture,Tables,Proposal,2500,600,1900,4,2800,100,4.6
+10-03-2024,2024,Mar,Australia,Sydney,-33.8688,151.2093,Electronics,Laptops,Closed Won,5200,1300,3900,6,5000,150,4.9
+22-03-2024,2024,Mar,Brazil,Sao Paulo,-23.5505,-46.6333,Clothing,Jeans,Negotiation,1800,500,1300,30,2000,80,4.1
+05-04-2024,2024,Apr,USA,New York,40.7128,-74.006,Electronics,Phones,Closed Won,3200,900,2300,9,3000,120,4.4
+18-04-2024,2024,Apr,Japan,Tokyo,35.6895,139.6917,Furniture,Chairs,Qualified Lead,1600,350,1250,15,1900,60,4.7
+10-05-2024,2024,May,UK,London,51.5074,-0.1278,Clothing,T-Shirts,Closed Won,1400,450,950,60,1600,70,4.3
+25-05-2024,2024,May,India,Bangalore,12.9716,77.5946,Electronics,Headphones,Proposal,900,250,650,25,1100,30,4.6
+08-06-2024,2024,Jun,Canada,Toronto,43.6532,-79.3832,Furniture,Tables,Closed Won,2700,700,2000,5,3000,150,4.5
+22-06-2024,2024,Jun,France,Paris,48.8566,2.3522,Electronics,Laptops,Negotiation,4800,1100,3700,5,5200,200,4.2
+05-07-2024,2024,Jul,USA,Los Angeles,34.0522,-118.2437,Clothing,Jeans,Closed Won,2000,600,1400,35,2200,90,4.8
+20-07-2024,2024,Jul,Germany,Munich,48.1351,11.582,Electronics,Phones,Qualified Lead,3100,850,2250,8,3300,110,4.1
+12-08-2024,2024,Aug,China,Shanghai,31.2304,121.4737,Furniture,Chairs,Closed Won,1700,380,1320,14,2000,70,4.4
+28-08-2024,2024,Aug,Australia,Melbourne,-37.8136,144.9631,Clothing,T-Shirts,Prospect,1300,420,880,55,1500,65,4
+05-09-2024,2024,Sep,USA,Chicago,41.8781,-87.6298,Electronics,Headphones,Closed Won,950,280,670,22,1200,35,4.7
+22-09-2024,2024,Sep,UAE,Dubai,25.2048,55.2708,Furniture,Tables,Proposal,2800,750,2050,5,3100,160,4.5
+10-10-2024,2024,Oct,India,Mumbai,19.076,72.8777,Electronics,Laptops,Closed Won,5500,1400,4100,6,5800,200,4.9
+25-10-2024,2024,Oct,UK,Manchester,53.4808,-2.2426,Clothing,Jeans,Negotiation,2100,650,1450,38,2400,100,4.3
+08-11-2024,2024,Nov,Japan,Osaka,34.6937,135.5023,Electronics,Phones,Closed Won,3300,950,2350,10,3500,130,4.6
+20-11-2024,2024,Nov,USA,Seattle,47.6062,-122.3321,Furniture,Chairs,Qualified Lead,1800,400,1400,16,2100,80,4.2
+05-12-2024,2024,Dec,Brazil,Rio de Janeiro,-22.9068,-43.1729,Clothing,T-Shirts,Closed Won,1500,480,1020,65,1800,75,4.5
+18-12-2024,2024,Dec,France,Lyon,45.764,4.8357,Electronics,Headphones,Proposal,1000,300,700,28,1300,40,4.4
+08-01-2025,2025,Jan,USA,New York,40.7128,-74.006,Furniture,Tables,Closed Won,3000,800,2200,6,3500,180,4.8
+22-01-2025,2025,Jan,Singapore,Singapore,1.3521,103.8198,Electronics,Laptops,Negotiation,5800,1500,4300,7,6000,250,4.7
+10-02-2025,2025,Feb,Germany,Berlin,52.52,13.405,Clothing,Jeans,Closed Won,2300,700,1600,40,2600,120,4.6
+25-02-2025,2025,Feb,India,Delhi,28.6139,77.209,Electronics,Phones,Qualified Lead,3500,1000,2500,11,3800,150,4.3
