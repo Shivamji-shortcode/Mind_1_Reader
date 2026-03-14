@@ -72,3 +72,4 @@ class Mind1Agent:
             state_tensor = torch.FloatTensor(state)
             q_values = self.model(state_tensor)
             return torch.argmax(q_values).item()
+
