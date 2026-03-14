@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import re
 
 class Mind1Net(nn.Module):
     def __init__(self, input_size, output_size):
@@ -27,3 +28,19 @@ class Mind1Agnet:
             state_tensor = torch.FloatTensor(state)
             q_values = self.model(state_tensor)
             return torch.argmax(q_values).item()
+    
+    def extarct_features(state_dict):
+        """Turns a row of data into a numerical list for the AI Features.
+        -Does it have a $?
+        -Does it have a %
+        -Does it have a /
+        -It is empty
+        """
+        # we will look at 'price', 'discount', and the date_unfixed
+        features = []
+        target_columns = ['price', 'discount']
+        for key in ['price', 'discount', 'date_unfixed']:
+            val = str(state_dict.get(key, ""))
+
+            # Feature 1 : Has a currency Symbol
+            features.append(1.0 if )

@@ -53,3 +53,11 @@ class DataCleaninEnv:
         """Resets the Gym so Mind_1 can new trainign round ."""
         self.current_row = 0
         return self.get_state()
+    
+    def get_financial_insight(self):
+        """Calculates potential revenue/profit from the current dataset."""
+        # Example logic: Total Price - (Price * Discount)
+        temp_df = self.df.with_columns([
+            (pl.col("price") * (1 - pl.col("discount"))).alias("net_price")
+        ])
+        return temp_df["net_price"].sum()
