@@ -1,5 +1,4 @@
 print("Hello, World!")
 print("Welcome to Python programming.")
 print("This is an introduction to Python.")
-print("Python is a versatile language used for various applications.")
-print("You can use Python for web development, data analysis, machine learning, and more.") 
+#  we delete some lines to make it more concise
