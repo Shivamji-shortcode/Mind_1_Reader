@@ -1,7 +1,7 @@
 import polars as pl
 import re
 
-class CleaningAtions:
+class CleaningActions:
     @staticmethod
     def strip_currency(df,column_name):
         """Action 1: Remove symbols like $ and € and converts to float."""
@@ -20,10 +20,11 @@ class CleaningAtions:
         )
     @staticmethod
     def unify_date(df, column_name):
-        """Action 3 : Attempts to parse multiple dates formats in to YYYY-MM-DD."""
+        """Action 3: Robust date parsing using a fallback strategy."""
         return df.with_columns(
-            pl.col(column_name).str.to_date(
-                formats = ["%Y-%m-%d", "%d/%m/%y", "%b %d, %y"],
-                strict=False
-            )
+            pl.coalesce([
+                pl.col(column_name).str.to_date("%Y-%m-%d", strict=False),
+                pl.col(column_name).str.to_date("%d/%m/%Y", strict=False),
+                pl.col(column_name).str.to_date("%b %d, %Y", strict=False),
+            ]).alias(column_name)
         )
