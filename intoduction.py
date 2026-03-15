@@ -6,3 +6,6 @@ print("This is an introduction to Python.")
 print("Python is a versatile language.")
 print("It is widely used in various fields.")
 print("Let's start learning Python!")
+
+print("Hey this is new module")
+
